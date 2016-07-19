@@ -1,4 +1,4 @@
-package com.devcolibri.secure.entity;
+package loc.pTango.secure.entity;
 
 public class User {
 

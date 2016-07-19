@@ -1,6 +1,6 @@
-package com.devcolibri.secure.service;
+package loc.pTango.secure.service;
 
-import com.devcolibri.secure.entity.User;
+import loc.pTango.secure.entity.User;
 import org.springframework.stereotype.Service;
 
 @Service

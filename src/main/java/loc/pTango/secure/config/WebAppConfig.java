@@ -1,6 +1,6 @@
-package com.devcolibri.secure.config;
+package loc.pTango.secure.config;
 
-import com.devcolibri.secure.service.UserDetailsServiceImpl;
+import loc.pTango.secure.service.UserDetailsServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -8,13 +8,12 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.devcolibri")
+@ComponentScan("loc.pTango")
 public class WebAppConfig extends WebMvcConfigurerAdapter {
 
     @Override
@@ -22,8 +21,9 @@ public class WebAppConfig extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("/pages/**").addResourceLocations("/pages/");
     }
 
-@Bean
-public UserDetailsService getUserDetailsService(){
+
+    @Bean
+    public UserDetailsService getUserDetailsService(){
     return new UserDetailsServiceImpl();
 }
 
@@ -38,4 +38,3 @@ public UserDetailsService getUserDetailsService(){
     }
 
 }
-

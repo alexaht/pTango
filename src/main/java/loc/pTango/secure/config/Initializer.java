@@ -1,4 +1,4 @@
-package com.devcolibri.secure.config;
+package loc.pTango.secure.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
@@ -21,6 +21,11 @@ public class Initializer implements WebApplicationInitializer {
         servletContext.addListener(new ContextLoaderListener(ctx));
 
         ctx.setServletContext(servletContext);
+
+        /*FilterRegistration.Dynamic filterRegistration = servletContext.addFilter("encodingFilter", new CharacterEncodingFilter());
+        filterRegistration.setInitParameter("encoding", "UTF-8");
+        filterRegistration.setInitParameter("forceEncoding", "true");
+        filterRegistration.addMappingForUrlPatterns(null, true, "");*/
 
         Dynamic servlet = servletContext.addServlet(DISPATCHER_SERVLET_NAME, new DispatcherServlet(ctx));
         servlet.addMapping("/");

@@ -1,4 +1,4 @@
-package com.devcolibri.secure.entity.enums;
+package loc.pTango.secure.entity.enums;
 
 public enum UserRoleEnum {
 

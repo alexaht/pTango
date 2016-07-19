@@ -1,7 +1,7 @@
-package com.devcolibri.secure.service;
+package loc.pTango.secure.service;
 
-import com.devcolibri.secure.entity.User;
-import com.devcolibri.secure.entity.enums.UserRoleEnum;
+import loc.pTango.secure.entity.User;
+import loc.pTango.secure.entity.enums.UserRoleEnum;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

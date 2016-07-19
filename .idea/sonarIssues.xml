@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/devcolibri/secure/config/FilterCOnfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/devcolibri/secure/config/FilterConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/devcolibri/secure/config/Initializer.java">
           <value>
             <set />
@@ -19,6 +29,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/devcolibri/secure/config/WebAppConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/devcolibri/secure/entity/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/loc/pTango/secure/config/Initializer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/loc/pTango/secure/config/WebAppConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/loc/pTango/secure/entity/User.java">
           <value>
             <set />
           </value>

@@ -1,6 +1,6 @@
-package com.devcolibri.secure.config;
+package loc.pTango.secure.config;
 
-import com.devcolibri.secure.service.UserDetailsServiceImpl;
+import loc.pTango.secure.service.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

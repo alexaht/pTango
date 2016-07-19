@@ -5,15 +5,16 @@
 
     <div class="jumbotron" style="margin-top: 20px;">
         <h1>sn.loc</h1>
-        <p class="lead">sn - це программа для розрахунку годин навантаження на кафедрах університету.</p>
+        <p class="lead">sn - Войти</p>
         <sec:authorize access="!isAuthenticated()">
-            <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Ввійти</a></p>
+            <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Войти</a></p>
         </sec:authorize>
         <sec:authorize access="isAuthenticated()">
-            <p>Ваш логин: <sec:authentication property="principal.username" /></p>
-            <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Вийти</a></p>
+            <p>??? ?????: <sec:authentication property="principal.username" /></p>
+            <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Войти</a></p>
 
         </sec:authorize>
     </div>
+    ВойтиВойтиВойтиВойтиВойтиВойти
 </div>
 <jsp:include page="staticPages/futter.jsp"/>
