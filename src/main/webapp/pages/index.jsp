@@ -5,16 +5,14 @@
 
     <div class="jumbotron" style="margin-top: 20px;">
         <h1>sn.loc</h1>
-        <p class="lead">sn - Войти</p>
         <sec:authorize access="!isAuthenticated()">
-            <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Войти</a></p>
+            <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Війти</a></p>
         </sec:authorize>
         <sec:authorize access="isAuthenticated()">
-            <p>??? ?????: <sec:authentication property="principal.username" /></p>
-            <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Войти</a></p>
+            <p>Ваш логін: <sec:authentication property="principal.username" /></p>
+            <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Вийти</a></p>
 
         </sec:authorize>
     </div>
-    ВойтиВойтиВойтиВойтиВойтиВойти
 </div>
 <jsp:include page="staticPages/futter.jsp"/>
