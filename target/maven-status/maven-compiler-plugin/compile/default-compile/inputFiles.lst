@@ -1,0 +1,10 @@
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/config/WebAppConfig.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/entity/enums/UserRoleEnum.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/config/SecurityConfig.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/entity/User.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/service/UserService.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/controller/MainController.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/service/UserServiceImpl.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/config/Initializer.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/service/UserDetailsServiceImpl.java
+/home/oleksiy/IdeaProjects/spring-security-exam/src/main/java/com/devcolibri/secure/controller/LoginController.java
